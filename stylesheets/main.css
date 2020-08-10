@@ -6,16 +6,69 @@ ul {
   background-color: red;
 }
 
-li {
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  float: right;
 }
 
 h1 {
   font-size: 40px;
   float: left;
+  color: white;
+  padding: 12px;
 }
 
-a {
-  color: white;
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h3 {
+  padding: 12px;
+  font-weight: bold;
+}
+
+#menu {
+  background-color: gray
+}
+
+nav ul {
+  padding: 10px;
+}
+
+img {
+  padding-bottom: 20px;
+  padding-right: 30px;
+}
+
+#main_img {
+  float: left;
+  padding: 20px;
+}
+
+article {
+  float:none;
+  padding: 40px;
+  padding-right: 450px;
+}
+
+aside {
   float: right;
+  padding: 50px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  padding: 20px;
+  background-color: gray;
+  color: white;
 }
